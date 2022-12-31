@@ -23,3 +23,43 @@
 // ; cantidadEmails = 6
 // ; solicitudesEjecutivos = 3
 
+// 1-Completar hoja de carlculo mensual
+//     ultimos ingresos publicitarios en los informes de marketin
+
+// 2- revisar correo electronico
+//     si hay menos de 10 correo sin leer
+//         revisar correo de voz para ver si hay alguna solicitud de los ejecutivos
+//             si hay tales solicitudes, hagalas primero, al menos que tenga una solicitud de emergencia de otro departamento.
+
+// 3- una vez terminado, regar planta, despues de apagar la computadora.
+
+// iniciar sesion con usuario de administrador para ver lso informes de amrketing 
+// enviar correo depseus de terminar con las solicitudes
+
+
+
+#include <stdio.h>
+
+void main(){
+    int cantidadEmails = 6, solicitudesEjecutivos = 3;
+
+    printf("Inicie sesion con cuenta de administrador");
+    printf("ver ingresos publicitarios en lso informes de marketing");
+    printf("Completar hoja de calculo mensual");
+    printf("Revisar correo electronico");
+    if(cantidadEmails<10){
+        printf("    Revisar correo de voz para ver si hay alguna solicitud de lso ejecutivos");
+        if(solicitudesEjecutivos>0){
+            printf("Hacer solicitudes primero, al menos que tenga una solicituyd de emergencia de otro departamento");
+        }
+    }
+    printf("Enviar correo electronico luego de finalizar con las solicitudes");
+    printf("Apagar computadora");
+    printf("Regar planta");
+
+    printf("LISTO");
+
+    printf("Presione ENTER para continuar...");
+    getchar();
+    getchar();
+}
